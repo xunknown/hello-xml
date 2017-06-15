@@ -15,8 +15,7 @@ public class App
     {
     	LOGGER.info("xml file parse:");
     	try {
-			WriteXMLWithDOM4J.writeXML("test.xml");
-	    	ReadXMLWithDOM4J.readXML("test.xml");
+	    	ReadXMLWithDOM.readXML("conf/log4j2.xml");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
